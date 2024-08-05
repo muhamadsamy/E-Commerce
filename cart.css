@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#spro{
+    display: flex;
+    margin-top:20px;
+}
+ img{
+    width: 50%;
+    margin-right: 50px;
+}
+#spro .single-detail{
+    width: 50%;
+    padding-top: 60px;
+    padding-right: 90px;
+}
+#spro .single-detail h4{
+    padding: 10px 0 20px 0;
+    font-size: 40px;
+}
+#spro .single-detail h2{
+    font-size: 30px;
+}
+#spro .single-detail input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#spro .single-detail button{
+   background: aqua; 
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-size: 20px;
+}
+#checkout{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25%;
+    width: 25%;
+    min-width: 150px;
+    padding: 10px 12px;
+    border:1px solid white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .06);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+.prod-container{
+    
+    padding-top: 20px;
+    display: table-caption;
+    width: 100%;
+    justify-content: space-between;
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}

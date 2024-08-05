@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+    
+    
+    body{
+    width: 100%;
+    
+    
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 14px 70px;
+    background-color:beige;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#nbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+#nbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    transition: .3s ease;
+    
+}
+#nbar li a:hover{
+    color: orangered;
+}
+#nbar form{
+ background-color: transparent;
+}
+
+
+#wlcm{
+    background-image: url(4.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#wlcm .sort{
+    position:absolute;
+    left:80%;
+    top:20%;
+}
+#wlcm h4{
+    font-size: 300%;
+    
+}
+#wlcm h2{
+    font-size: 200%;
+  
+    color: beige;
+    
+
+}
+#wlcm p{
+    font-size: 150%;
+
+    color: black;
+}
+#wlcm button{
+    background-color: brown;
+    border: 0;
+    cursor: pointer;
+}
+#info{
+    text-align: center;
+    padding: 10 15px;
+
+    
+}
+#info h1{
+    font-size: 300%;
+}
+
+
+#prod1{
+    text-align: center;
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#prod1 .prod-container{
+    
+    justify-content: space-between;
+    padding-top: 20px;
+    display: table-caption;
+    
+    
+    
+}
+#prod1 .product{
+    width: 25%;
+    min-width: 150px;
+    padding: 10px 12px;
+    border:1px solid white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .06);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    
+    
+    
+    
+
+}
+#prod1 .product:hover{
+    color: orangered;
+}
+#prod1 .product img{
+    width: 60%;
+    border-radius: 20px;
+}n
+#prod1 .product .description{
+    text-align: start;
+    padding: 10px 0;
+    
+}
+#prod1 .product .description span{
+    color: blue;
+    font-size: 15px;
+}
+#prod1 .product .description h5{
+    font-size: 16px;
+    color:black
+    
+}
+#prod1 .product .description i{
+    font-size: 14px;
+    color: yellow;
+
+}
+#prod1 .product .description h4{
+    color:aqua;
+}
+#footer{
+    text-align: center;
+    background-color: beige;
+}
+
+
+
+
+@media (max-width:799px) {
+
+    
+}
+
+
